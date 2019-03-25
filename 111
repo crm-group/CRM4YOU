@@ -1,0 +1,7 @@
+            'id' => $this->primaryKey(),
+            'name' => $this->string(150)->notNull(),
+            'social network' => $this->string(255)->notNull(),
+            'manager' => $this->string(255),
+            'action' => $this->string(255),
+            'status' => $this->string(150),
+            'what was interested in' => $this->string(255),
